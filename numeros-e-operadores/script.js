@@ -33,3 +33,16 @@ console.log(i);
 
 const idadeString = "20";
 console.log(+idadeString); // number
+
+// Exercício
+const total = 10 + (5 * 2) / 2 + 20;
+console.log(total);
+const numeroString = +"200";
+const cinquenta = 50;
+console.log(numeroString + cinquenta); // 250
+let cont = 5;
+console.log(++cont);
+const number = +"80" / 2;
+const unidade = "kg";
+const peso = number + unidade;
+console.log(peso);
