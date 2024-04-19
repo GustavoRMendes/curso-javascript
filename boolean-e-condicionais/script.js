@@ -29,3 +29,5 @@ if (!possuiGraducao) {
 10 >= 10; //true
 5 <= 3; //false
 10 === 10; //true
+11 != 10; //true
+11 !== 11; //false
