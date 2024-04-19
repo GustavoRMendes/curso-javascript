@@ -37,3 +37,8 @@ true && true; //true
 true && false; //false
 false && true; //false
 'Gato' && 'Cão'; // Cão
+
+true || true; //true
+true || false; //true
+false || true; //true
+"Gato" || "Cão"; // Gato
