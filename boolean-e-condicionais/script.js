@@ -16,3 +16,10 @@ if (nome) {
 } else {
   console.log("nome não existe");
 }
+// Negação
+if (!possuiGraducao) {
+  console.log("nao possui graducao");
+}
+
+// if(!!null ) assim você verifica
+
