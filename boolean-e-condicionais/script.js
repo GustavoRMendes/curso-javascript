@@ -1,7 +1,9 @@
-const possuiGraducao = true;
-
+const possuiGraducao = false;
+const possuiDoutorado = true;
 if (possuiGraducao) {
-  console.log("é verdadeiro");
+  console.log("Possui Graduação");
+} else if(possuiDoutorado) {
+  console.log("Possui doutorado");
 } else {
-  console.log("é falso");
+  console.log("Não possui nada.")
 }
