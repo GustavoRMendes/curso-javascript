@@ -42,3 +42,17 @@ true || true; //true
 true || false; //true
 false || true; //true
 "Gato" || "Cão"; // Gato
+
+// Switch
+const corFavorita = "Azul";
+
+switch (corFavorita) {
+  case "Azul": 
+    console.log("Sua cor favorita é azul");
+    break;
+  case "Vermelho":
+    console.log("Sua cor favorita é vermelho");
+    break;
+  default:
+    console.log("Suas cores não estão nas nossas opções");
+}
