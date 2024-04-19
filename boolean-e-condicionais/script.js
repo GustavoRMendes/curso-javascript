@@ -23,3 +23,9 @@ if (!possuiGraducao) {
 
 // if(!!null ) assim você verifica
 
+// Comparação
+10 > 5; //true
+10 < 2; //false
+10 >= 10; //true
+5 <= 3; //false
+10 === 10; //true
