@@ -31,3 +31,9 @@ if (!possuiGraducao) {
 10 === 10; //true
 11 != 10; //true
 11 !== 11; //false
+
+// Operadores Lógicos
+true && true; //true
+true && false; //false
+false && true; //false
+'Gato' && 'Cão'; // Cão
