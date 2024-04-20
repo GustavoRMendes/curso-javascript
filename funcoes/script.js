@@ -9,3 +9,10 @@ function pi() {
 }
 
 console.log(pi());
+
+function imc (peso,altura) {
+  const resultado = peso / (altura ** 2);
+  return resultado;
+}
+
+console.log(imc(63,1.74));
