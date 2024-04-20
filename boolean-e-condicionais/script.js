@@ -56,3 +56,29 @@ switch (corFavorita) {
   default:
     console.log("Suas cores não estão nas nossas opções");
 }
+
+// Exercício
+
+let primeiroNome = "Neymar";
+let idade = 31;
+let possuiBolaDeOuro = false;
+let empregoFuturo;
+let dinheiroNaConta = 0;
+console.log(!!primeiroNome);
+console.log(!!idade);
+console.log(!!possuiBolaDeOuro);
+console.log(!!empregoFuturo);
+console.log(!!dinheiroNaConta);
+
+const expressao = (5-2) && (5 - ' ') && (5-2);
+if(('Gato' === 'gato') && (5 > 2)) {
+  console.log('Verdadeiro');
+} else {
+  console.log('Falso');
+}
+
+if(('Gato' === 'gato') || (5 > 2)) {
+  console.log('Gato' && 'Cão');
+} else {
+  console.log('Falso');
+}
