@@ -36,7 +36,7 @@ if (!possuiGraducao) {
 true && true; //true
 true && false; //false
 false && true; //false
-'Gato' && 'Cão'; // Cão
+"Gato" && "Cão"; // Cão
 
 true || true; //true
 true || false; //true
@@ -47,7 +47,7 @@ false || true; //true
 const corFavorita = "Azul";
 
 switch (corFavorita) {
-  case "Azul": 
+  case "Azul":
     console.log("Sua cor favorita é azul");
     break;
   case "Vermelho":
@@ -70,19 +70,18 @@ console.log(!!possuiBolaDeOuro);
 console.log(!!empregoFuturo);
 console.log(!!dinheiroNaConta);
 
-const expressao = (5-2) && (5 - ' ') && (5-2);
-if(('Gato' === 'gato') && (5 > 2)) {
-  console.log('Verdadeiro');
+const expressao = 5 - 2 && 5 - " " && 5 - 2;
+if ("Gato" === "gato" && 5 > 2) {
+  console.log("Verdadeiro");
 } else {
-  console.log('Falso');
+  console.log("Falso");
 }
 
-if(('Gato' === 'gato') || (5 > 2)) {
-  console.log('Gato' && 'Cão');
+if ("Gato" === "gato" || 5 > 2) {
+  console.log("Gato" && "Cão");
 } else {
-  console.log('Falso');
+  console.log("Falso");
 }
-
 
 const idadeAmigo = 20;
 const idadeTio = 39;
@@ -90,5 +89,14 @@ const idadeTio = 39;
 if (idadeAmigo > idadeTio) {
   console.log("Seu amigo é mais velho que seu Tio.");
 } else {
-  console.log("Seu tio é mais velho que seu amigo.")
+  console.log("Seu tio é mais velho que seu amigo.");
+}
+
+const brasil = 207;
+const china = 1340;
+
+if (brasil > china) {
+  console.log("Brasil tem mais habitantes.");
+} else {
+  console.log("Brasil tem menos habitantes.");
 }
