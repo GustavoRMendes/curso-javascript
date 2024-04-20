@@ -1,5 +1,5 @@
-function areaQuadrada() {
-  console.log("Função ativa");
+function areaQuadrada(lado) {
+  return lado * lado;
 }
 
-areaQuadrada();
+console.log(areaQuadrada(2));
