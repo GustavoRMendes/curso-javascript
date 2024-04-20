@@ -82,3 +82,13 @@ if(('Gato' === 'gato') || (5 > 2)) {
 } else {
   console.log('Falso');
 }
+
+
+const idadeAmigo = 20;
+const idadeTio = 39;
+
+if (idadeAmigo > idadeTio) {
+  console.log("Seu amigo é mais velho que seu Tio.");
+} else {
+  console.log("Seu tio é mais velho que seu amigo.")
+}
