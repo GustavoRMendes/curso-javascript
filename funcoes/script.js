@@ -28,3 +28,8 @@ function corFavorita (cor){
 }
 
 console.log(corFavorita("azul"));
+
+
+addEventListener("click", function () {
+  console.log("Oi");
+})
