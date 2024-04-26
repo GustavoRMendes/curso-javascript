@@ -10,17 +10,17 @@ function pi() {
 
 console.log(pi());
 
-function imc (peso,altura) {
-  const resultado = peso / (altura ** 2);
+function imc(peso, altura) {
+  const resultado = peso / altura ** 2;
   return resultado;
 }
 
-console.log(imc(63,1.74));
+console.log(imc(63, 1.74));
 
-function corFavorita (cor){
+function corFavorita(cor) {
   if (cor === "azul") {
     return "Eu gosto do céu";
-  } else if (cor === "preto"){
+  } else if (cor === "preto") {
     return "Eu gosto da noite";
   } else {
     return "Eu gosto dessa cor";
@@ -29,7 +29,11 @@ function corFavorita (cor){
 
 console.log(corFavorita("azul"));
 
-
 addEventListener("click", function () {
   console.log("Oi");
-})
+});
+// ou
+function mostrarAlerta() {
+  alert("oi");
+}
+addEventListener("click", mostrarAlerta);
