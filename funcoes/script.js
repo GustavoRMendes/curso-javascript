@@ -33,7 +33,11 @@ addEventListener("click", function () {
   console.log("Oi");
 });
 // ou
-function mostrarAlerta() {
-  alert("oi");
+function mostrarAlerta(mensagem) {
+  if (typeof mensagem === "string"){
+    alert("oi");
+  } else {
+    return "Preencha com um texto."
+  }
 }
-addEventListener("click", mostrarAlerta);
+addEventListener("click", mostrarAlerta("string"));
