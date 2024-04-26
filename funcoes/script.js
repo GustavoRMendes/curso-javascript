@@ -16,3 +16,15 @@ function imc (peso,altura) {
 }
 
 console.log(imc(63,1.74));
+
+function corFavorita (cor){
+  if (cor === "azul") {
+    return "Eu gosto do céu";
+  } else if (cor === "preto"){
+    return "Eu gosto da noite";
+  } else {
+    return "Eu gosto dessa cor";
+  }
+}
+
+console.log(corFavorita("azul"));
