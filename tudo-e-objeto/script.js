@@ -6,3 +6,9 @@ const numero  = 1.44432;
 console.log(numero.toFixed(2));
 
 console.log(addEventListener.length);
+
+
+const btn = document.querySelector(".btn");
+btn.addEventListener("click", () => {
+  alert("Hello, World!")
+})
