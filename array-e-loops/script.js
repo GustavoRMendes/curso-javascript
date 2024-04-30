@@ -28,6 +28,6 @@ for (let i = 0; i < nomes.length; i++) {
 }  
 
 // forEach
-nomes.forEach(function(item,index) {
-  console.log(item);
+nomes.forEach(function(item,index,array) {
+  console.log(item,index,array);
 })
