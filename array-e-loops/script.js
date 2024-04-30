@@ -18,7 +18,7 @@ while(contador <= 10) {
   contador++;
 }
 
-
+// Break
 const nomes = ["Gustavo","Felipe","Camilo","Cecília","Isadora"];
 for (let i = 0; i < nomes.length; i++) {
   console.log(nomes[i]);
@@ -26,3 +26,8 @@ for (let i = 0; i < nomes.length; i++) {
     break;
   }
 }  
+
+// forEach
+nomes.forEach(function(item,index) {
+  console.log(item);
+})
