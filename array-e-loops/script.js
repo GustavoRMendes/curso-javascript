@@ -22,4 +22,7 @@ while(contador <= 10) {
 const nomes = ["Gustavo","Felipe","Camilo","Cecília","Isadora"];
 for (let i = 0; i < nomes.length; i++) {
   console.log(nomes[i]);
+  if(nomes[i] === "Camilo") {
+    break;
+  }
 }  
