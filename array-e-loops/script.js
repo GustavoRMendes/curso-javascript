@@ -17,3 +17,9 @@ while(contador <= 10) {
   console.log(contador);
   contador++;
 }
+
+
+const nomes = ["Gustavo","Felipe","Camilo","Cecília","Isadora"];
+for (let i = 0; i < nomes.length; i++) {
+  console.log(nomes[i]);
+}  
