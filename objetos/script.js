@@ -20,3 +20,4 @@ console.log(quadrado.area(5));
 console.log(quadrado.perimetro(2));
 console.log(Math.random());
 console.log(Math.PI);
+console.log(quadrado.hasOwnProperty("lados")); //true
