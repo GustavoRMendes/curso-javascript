@@ -6,3 +6,10 @@ function mostrarCarro() {
 }
 mostrarCarro(); // Fusca
 // console.log(carro); carro is not defined;
+
+// Escopo de Bloco
+if (true) {
+  let mensagem = "Oii"
+  console.log(mensagem);
+}
+console.log(mensagem); //mensagem is not defined
