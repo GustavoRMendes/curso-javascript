@@ -12,4 +12,10 @@ if (true) {
   let mensagem = "Oii"
   console.log(mensagem);
 }
-console.log(mensagem); //mensagem is not defined
+//console.log(mensagem); // mensagem is not defined
+
+// var vaza o escopo
+{
+  const carro2 = "Ferrari"
+}
+console.log(carro2); // Not defined
