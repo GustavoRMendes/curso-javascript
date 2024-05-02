@@ -16,6 +16,10 @@ console.log(titulo.innerText)
 console.log(titulo.id)
 console.log(titulo.offsetHeight)
 function clicou() {
-  titulo.innerText = "Clicou"
+  if(titulo.innerText === "Título"){
+    titulo.innerText = "Clicou"
+  } else if(titulo.innerText === "Clicou") {
+    titulo.innerText =  "Título"
+  }
 }
 titulo.addEventListener("click", clicou)
