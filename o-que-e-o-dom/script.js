@@ -1,2 +1,8 @@
-window.alert("Hello")
-console.log(window.location.href)
+window.alert("Hello");
+const href = window.location.href;
+
+if (href === "http://localhost:5500/o-que-e-o-dom/") {
+  console.log("true");
+} else {
+  console.log("false");
+}
