@@ -12,3 +12,4 @@ if (href === "http://localhost:5500/o-que-e-o-dom/") {
 console.log(Element)
 console.log(titulo.classList[0])
 console.log(titulo.classList[1])
+console.log(titulo.innerText)
