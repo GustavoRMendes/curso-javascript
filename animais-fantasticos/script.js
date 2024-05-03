@@ -9,3 +9,6 @@ console.log(ul);
 
 const firstLi = document.querySelector("li");
 console.log(firstLi);
+
+const linksInterno = document.querySelector("[href^='#']");
+console.log(linksInterno);
