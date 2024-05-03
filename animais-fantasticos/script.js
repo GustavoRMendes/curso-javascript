@@ -12,3 +12,6 @@ console.log(firstLi);
 
 const linksInterno = document.querySelector("[href^='#']");
 console.log(linksInterno);
+
+const animaisImg = document.querySelectorAll(".animais img");
+console.log(animaisImg);
