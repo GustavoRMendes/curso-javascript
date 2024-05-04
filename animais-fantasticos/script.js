@@ -1,5 +1,5 @@
-// Document.querySelector()
-// Document.querySelectorAll()
+// Document.querySelector() Seleciona só o primeiro
+// Document.querySelectorAll() Seleciona todos
 
 const animais = document.getElementById("animais");
 console.log(animais);
