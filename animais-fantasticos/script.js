@@ -1,3 +1,6 @@
+// Document.querySelector()
+// Document.querySelectorAll()
+
 const animais = document.getElementById("animais");
 console.log(animais);
 
