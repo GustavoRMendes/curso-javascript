@@ -20,4 +20,14 @@ const img = document.querySelector("img");
 console.log(img.getAttribute("src"));
 console.log(img.getAttribute("alt"));
 img.setAttribute("alt","Texto alternativo");
-console.log(img.hasAttribute("alt")); //Verifica - true
+console.log(img.hasAttribute("alt")); //Verifica - true.
+
+// Read Only - attributes
+const carro = {
+  portas: 4,
+  andar() {
+    return "andou";
+  }
+}
+console.log(carro.andar());
+
