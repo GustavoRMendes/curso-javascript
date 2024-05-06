@@ -3,3 +3,7 @@ const listaAnimais = document.querySelector(".animais-lista");
 const height = listaAnimais.scrollHeight;
 console.log(listaAnimais.offsetWidth);
 console.log(height);
+
+// offsetTop e offsetLeft
+console.log(listaAnimais.offsetTop);
+console.log(listaAnimais.offsetLeft);
