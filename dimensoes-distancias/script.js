@@ -12,3 +12,14 @@ console.log(listaAnimais.offsetLeft);
 const primeiroh2 = document.querySelector("h2");
 const rect = primeiroh2.getBoundingClientRect();
 console.log(rect)
+
+// Window
+console.log(
+  window.innerWidth,
+  window.outerWidth,
+  window.innerHeight,
+  window.outerHeight,
+)
+if (window.innerWidth < 600) {
+  console.log("Tela menor que 600px");
+}
