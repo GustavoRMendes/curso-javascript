@@ -7,3 +7,8 @@ console.log(height);
 // offsetTop e offsetLeft
 console.log(listaAnimais.offsetTop);
 console.log(listaAnimais.offsetLeft);
+
+// getBoundingClientRect()
+const primeiroh2 = document.querySelector("h2");
+const rect = primeiroh2.getBoundingClientRect();
+console.log(rect)
