@@ -27,3 +27,15 @@ const gridSectionHTML = document.getElementsByClassName("grid-section");
 const gridSectionNode = document.querySelectorAll(".grid-section");
 console.log(gridSectionHTML); // adicionou a ul com a classe adicionada.
 console.log(gridSectionNode); // não adicionou a ul com a classe adicionada.
+
+// Array Like só funciona em NodeList
+gridSectionNode.forEach(function (item,index) {
+  console.log(item);
+  console.log(index);
+})
+// Para transformar um HTMLCollection para NodeList usa se o Array.from()
+const arrayGrid = Array.from(gridSectionHTML);
+arrayGrid.forEach(function (item,index) {
+  console.log(item);
+  console.log(index);
+}) 
