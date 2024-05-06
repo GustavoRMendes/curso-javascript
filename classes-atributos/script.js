@@ -9,3 +9,8 @@ if (menu.classList.contains("azul")) {
 }
 console.log(menu.className);
 menu.className += " vermelho"
+
+// Attributes
+const animais = document.querySelector(".animais");
+console.log(animais.attributes);
+console.log(animais.attributes['data-texto']);
