@@ -17,8 +17,20 @@ animaisLista.addEventListener("click", callbackLista);
 
 const linkExterno = document.querySelector("a[href^='http']");
 function handleLinkExterno(event) {
-  event.preventDefault()
-  console.log("clicou")
-  console.log(this.getAttribute('href'));
+  event.preventDefault();
+  console.log("clicou");
+  console.log(this.getAttribute("href"));
 }
 linkExterno.addEventListener("click", handleLinkExterno);
+
+const h1 = document.querySelector("h1");
+function handleEvent(event) {
+  console.log(event.type, event);
+}
+h1.addEventListener("click", handleEvent);
+h1.addEventListener("mouseenter", handleEvent);
+h1.addEventListener("mousemove", handleEvent);
+
+window.addEventListener("scroll", handleEvent);
+window.addEventListener("resize", handleEvent);
+window.addEventListener("keydown", handleEvent);
