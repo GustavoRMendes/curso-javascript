@@ -19,5 +19,6 @@ const linkExterno = document.querySelector("a[href^='http']");
 function handleLinkExterno(event) {
   event.preventDefault()
   console.log("clicou")
+  console.log(this.getAttribute('href'));
 }
 linkExterno.addEventListener("click", handleLinkExterno);
