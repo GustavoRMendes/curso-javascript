@@ -34,3 +34,13 @@ h1.addEventListener("mousemove", handleEvent);
 window.addEventListener("scroll", handleEvent);
 window.addEventListener("resize", handleEvent);
 window.addEventListener("keydown", handleEvent);
+
+// keyboard
+function handleKeyboard(event){
+  if(event.key ==="f") {
+    document.body.classList.toggle("fullscreen")
+  }
+  console.log(event.key)
+}
+
+window.addEventListener("keydown",handleKeyboard)
