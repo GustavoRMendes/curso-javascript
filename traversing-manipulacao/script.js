@@ -36,3 +36,8 @@ const contato = document.querySelector(".contato");
 const tituloContato = contato.querySelector(".titulo");
 
 animais.appendChild(tituloContato); 
+// insertBefore
+const mapa = document.querySelector(".mapa");
+contato.insertBefore(animais,mapa); // o segundo argumento tem quer ser filho do elemento que foi adicionado a função
+
+
