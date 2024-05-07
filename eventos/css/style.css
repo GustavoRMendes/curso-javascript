@@ -206,3 +206,7 @@ body {
     margin-bottom: 0px;
   }
 }
+
+html.texto-maior {
+  font-size: 150%;
+}
