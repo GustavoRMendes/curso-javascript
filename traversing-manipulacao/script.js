@@ -31,3 +31,8 @@ console.log(lista.previousSibling);
 console.log(lista.nextSibling);
 
 // Manipulando Elementos
+const animais = document.querySelector(".animais");
+const contato = document.querySelector(".contato");
+const tituloContato = contato.querySelector(".titulo");
+
+animais.appendChild(tituloContato); 
