@@ -55,3 +55,10 @@ novoTitulo.classList.add("new");
 
 mapa.appendChild(novoTitulo);
 console.log(novoTitulo);
+
+// Clonar elementos
+const primeiroH1 = document.querySelector("h1");
+const faq = document.querySelector(".faq");
+const cloneH1 = primeiroH1.cloneNode(true);
+cloneH1.classList.add("blue")
+faq.appendChild(cloneH1);  

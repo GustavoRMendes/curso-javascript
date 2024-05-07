@@ -210,3 +210,8 @@ body {
 html.texto-maior {
   font-size: 150%;
 }
+
+.blue {
+  background-color: #103066;
+  color: #fff;
+}
