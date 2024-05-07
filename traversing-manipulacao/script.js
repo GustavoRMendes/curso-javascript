@@ -11,3 +11,16 @@ console.log(animaisLista.innerText); // empty <vazio>, porque são imagens.
 console.log(h1.innerHTML);
 
 h1.innerHTML = "Olá, Gustavo!";
+
+// Traversing
+
+const lista = document.querySelector(".animais-lista");
+
+console.log(lista.parentElement.parentElement);
+console.log(lista.nextElementSibling);
+console.log(lista.previousElementSibling);
+
+console.log(lista.children);
+console.log(lista.children[lista.children.length - 1]);
+console.log(lista.querySelectorAll("li"));
+console.log(lista.querySelector("li:last-child"));
