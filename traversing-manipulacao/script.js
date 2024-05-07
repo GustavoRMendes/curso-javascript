@@ -38,10 +38,20 @@ const tituloContato = contato.querySelector(".titulo");
 animais.appendChild(tituloContato); 
 // insertBefore
 const mapa = document.querySelector(".mapa");
-contato.insertBefore(animais,mapa); // o segundo argumento tem quer ser filho do elemento que foi adicionado a função
+// contato.insertBefore(animais,mapa); 
+// o segundo argumento tem quer ser filho do elemento que foi adicionado a função
 
 
 // replaceChild
-contato.replaceChild(mapa,titulo);
+// contato.replaceChild(mapa,tituloContato);
 // removeChild
-contato.removeChild(titulo);
+// contato.removeChild(titulo);
+
+
+// Novos elementos
+const novoTitulo = document.createElement("h1");
+novoTitulo.innerText = "Novo título";
+novoTitulo.classList.add("new");
+
+mapa.appendChild(novoTitulo);
+console.log(novoTitulo);
