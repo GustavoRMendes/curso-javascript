@@ -24,3 +24,8 @@ console.log(lista.children);
 console.log(lista.children[lista.children.length - 1]);
 console.log(lista.querySelectorAll("li"));
 console.log(lista.querySelector("li:last-child"));
+
+// Element vs Node
+console.log(lista.childNodes);
+console.log(lista.previousSibling);
+console.log(lista.nextSibling);
