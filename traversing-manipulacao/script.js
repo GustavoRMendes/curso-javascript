@@ -41,3 +41,7 @@ const mapa = document.querySelector(".mapa");
 contato.insertBefore(animais,mapa); // o segundo argumento tem quer ser filho do elemento que foi adicionado a função
 
 
+// replaceChild
+contato.replaceChild(mapa,titulo);
+// removeChild
+contato.removeChild(titulo);
