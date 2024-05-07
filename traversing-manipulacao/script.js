@@ -29,3 +29,5 @@ console.log(lista.querySelector("li:last-child"));
 console.log(lista.childNodes);
 console.log(lista.previousSibling);
 console.log(lista.nextSibling);
+
+// Manipulando Elementos
