@@ -43,9 +43,9 @@ const mapa = document.querySelector(".mapa");
 
 
 // replaceChild
-// contato.replaceChild(mapa,tituloContato);
+contato.replaceChild(mapa,tituloContato);
 // removeChild
-// contato.removeChild(titulo);
+contato.removeChild(titulo);
 
 
 // Novos elementos
