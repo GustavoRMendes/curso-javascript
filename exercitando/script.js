@@ -4,3 +4,5 @@ function handleClick(event) {
     alert("Tela cheia");
   }
 }
+
+window.addEventListener("keydown", handleClick);
