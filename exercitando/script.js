@@ -19,5 +19,6 @@ window.addEventListener("keydown", darkTheme);
 const img = document.querySelector("img");
 function handleImg(event) {
   console.log(event.target)
+  console.log(event.currentTarget)
 }
 img.addEventListener("click", handleImg);
