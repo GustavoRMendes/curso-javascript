@@ -14,3 +14,5 @@ function darkTheme(event) {
 }
 
 window.addEventListener("keydown", darkTheme);
+
+// currentTarget  e Target
