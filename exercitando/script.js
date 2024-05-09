@@ -6,3 +6,11 @@ function handleClick(event) {
 }
 
 window.addEventListener("keydown", handleClick);
+
+function darkTheme(event) {
+  if (event.key === "t") {
+    document.documentElement.classList.toggle("dark")
+  }
+}
+
+window.addEventListener("keydown", darkTheme);
