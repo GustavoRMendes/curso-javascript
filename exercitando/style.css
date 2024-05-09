@@ -2,3 +2,7 @@
   background-color: #222;
   color: white;
 }
+
+img {
+  max-width: 100%;
+}
