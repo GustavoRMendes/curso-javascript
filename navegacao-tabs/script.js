@@ -1,5 +1,5 @@
 // Navegação por Tab
-
+function initNavTab(){
 const tabMenu = document.querySelectorAll(".js-tabmenu li");
 const tabContent = document.querySelectorAll(".js-tabcontent section");
 if (tabMenu.length && tabContent.length) {
@@ -17,3 +17,5 @@ if (tabMenu.length && tabContent.length) {
     });
   });
 }
+}
+initNavTab();
