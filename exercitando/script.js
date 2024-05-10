@@ -31,3 +31,10 @@ h1.innerHTML = "Título modificado com JavaScript."
 const body = document.querySelector("body");
 console.log(body.parentElement)
 console.log(body.previousElementSibling)
+
+// Element vs node
+
+// lista.previousElementSibling; elemento acima
+// lista.previousSibling; node acima
+// lista.firstChild; primeiro node child
+// lista.childNodes; todos os node child
