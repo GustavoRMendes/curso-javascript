@@ -38,3 +38,6 @@ console.log(body.previousElementSibling)
 // lista.previousSibling; node acima
 // lista.firstChild; primeiro node child
 // lista.childNodes; todos os node child
+
+const cloneTitulo = h1.cloneNode(true);
+console.log(cloneTitulo)
