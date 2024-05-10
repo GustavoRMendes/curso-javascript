@@ -25,3 +25,9 @@ img.addEventListener("click", handleImg);
 
 const h1 = document.querySelector("h1");
 h1.innerHTML = "Título modificado com JavaScript."
+
+
+// Traversing == Navegação pelo DOM
+const body = document.querySelector("body");
+console.log(body.parentElement)
+console.log(body.previousElementSibling)
