@@ -22,3 +22,6 @@ function handleImg(event) {
   console.log(event.currentTarget)
 }
 img.addEventListener("click", handleImg);
+
+const h1 = document.querySelector("h1");
+h1.innerHTML = "Título modificado com JavaScript."
