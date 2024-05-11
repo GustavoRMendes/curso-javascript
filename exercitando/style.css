@@ -6,3 +6,20 @@
 img {
   max-width: 100%;
 }
+dt {
+  cursor: pointer;
+  margin: 10px;
+}
+dt::after {
+  content: "↴";
+  margin-left: 10px;
+}
+dt.ativo::after {
+  content: "⬏";
+}
+dd.ativo {
+  display: block;
+}
+dd {
+  display: none;
+}
