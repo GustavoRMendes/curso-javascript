@@ -10,6 +10,11 @@ dt {
   cursor: pointer;
   margin: 10px;
 }
+dt::before {
+  content: "➡️";
+  width: 10px;
+  height: 4px;
+}
 dt::after {
   content: "↴";
   margin-left: 10px;
