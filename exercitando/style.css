@@ -24,7 +24,16 @@ dt.ativo::after {
 }
 dd.ativo {
   display: block;
+  animation: showIn .5s forwards;
 }
 dd {
   display: none;
+}
+@keyframes showIn {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
 }
