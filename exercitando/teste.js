@@ -1,7 +1,8 @@
-const dt = document.querySelector(".pergunta");
-const dd = document.querySelector(".resposta");
+const dt = document.querySelectorAll(".pergunta");
 function handleDt() {
-  dt.classList.toggle("ativo");
-  dd.classList.toggle("ativo");
+  this.classList.toggle("ativo");
+  this.nextElementSibling.classList.toggle("ativo")
 }
-dt.addEventListener("click", handleDt)
+dt.forEach((item) => {
+  item.addEventListener("click", handleDt)
+})
