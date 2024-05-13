@@ -19,3 +19,5 @@ if (tabMenu.length && tabContent.length) {
 }
 }
 initNavTab();
+
+// noscript
