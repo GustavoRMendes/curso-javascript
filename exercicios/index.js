@@ -49,7 +49,7 @@ switch (operacao) {
     alert("ERRO! TENTE NOVAMENTE...");
 }
 // Crie um programa que peça ao usuário dois números e depois exiba a soma deles.
-let usuario1 = Number(prompt("Digite um número: "))
-let usuario2 = Number(prompt("Digite outro número: "))
+let usuario1 = Number(prompt("Digite um número: "));
+let usuario2 = Number(prompt("Digite outro número: "));
 let soma = usuario1 + usuario2;
 console.log(soma);
