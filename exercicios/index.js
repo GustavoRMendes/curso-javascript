@@ -7,3 +7,7 @@ function showMessage() {
   alert("Alerta!");
 }
 buttonAlert.addEventListener("click", showMessage);
+
+// Crie um programa que peça ao usuário um nome e depois exiba uma mensagem de saudação.
+const nome = prompt("Qual seu nome?")
+const saudacao = alert("Olá " + nome + " !");
