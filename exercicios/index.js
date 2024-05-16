@@ -39,12 +39,17 @@ switch (operacao) {
     const multiplicacao = numero5 * numero6;
     alert("A multiplicação é igual a: " + multiplicacao);
     break;
-    case "4":
+  case "4":
     let numero7 = Number(prompt("Digite o primeiro número: "));
     let numero8 = Number(prompt("Digite o segundo número: "));
     const divisao = numero7 / numero8;
     alert("A divisão é igual a: " + divisao);
     break;
-    default:
-      alert("ERRO! TENTE NOVAMENTE...");
+  default:
+    alert("ERRO! TENTE NOVAMENTE...");
 }
+// Crie um programa que peça ao usuário dois números e depois exiba a soma deles.
+let usuario1 = Number(prompt("Digite um número: "))
+let usuario2 = Number(prompt("Digite outro número: "))
+let soma = usuario1 + usuario2;
+console.log(soma);
