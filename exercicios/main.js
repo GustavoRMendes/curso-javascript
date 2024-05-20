@@ -6,3 +6,6 @@ const lista = ['Gustavo','Felipe']
 for(let i = 0; i < lista.length; i++) {
   console.log(lista[i])
 }
+
+const mensagem = "Olá"
+console.log(mensagem)
