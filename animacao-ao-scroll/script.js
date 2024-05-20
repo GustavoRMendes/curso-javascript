@@ -22,17 +22,17 @@ initNavTab();
 
 //accordion
 const accordionList = document.querySelectorAll("dt");
-if(accordionList.length) {
+if (accordionList.length) {
   function handleList() {
     this.classList.toggle("ativo");
     this.nextElementSibling.classList.toggle("ativo");
   }
   accordionList.forEach((item) => {
-    item.addEventListener("click", handleList)
-  })
+    item.addEventListener("click", handleList);
+  });
 }
-  
-  // noscript
+
+// noscript
 function initLink() {
   const linksInternos = document.querySelectorAll("a[href^='#']");
   function handleLink(event) {
@@ -51,12 +51,19 @@ function initLink() {
 initLink();
 
 const sections = document.querySelectorAll(".js-scroll");
-function animaScroll() {
-  sections.forEach((section) => {
-    const sectionTop = section.getBoundingClientRect().top;
-    if (sectionTop < 0) {
-      section.classList.add("ativo")
-    }
-  })
+if (sections.length) {
+  const metadeWindow = window.innerHeight * 0.6; // 60%
+  function animaScroll() {
+    sections.forEach((section) => {
+      const sectionTop = section.getBoundingClientRect().top;
+      const isSectionVisible = sectionTop - metadeWindow < 0;
+      if (isSectionVisible) {
+        section.classList.add("ativo");
+      } else {
+        section.classList.remove("ativo");
+      }
+    });
+  }
+  animaScroll();
+  window.addEventListener("scroll", animaScroll);
 }
-window.addEventListener("scroll", animaScroll)
