@@ -53,3 +53,6 @@ let usuario1 = Number(prompt("Digite um número: "));
 let usuario2 = Number(prompt("Digite outro número: "));
 let soma = usuario1 + usuario2;
 console.log(soma);
+
+
+
