@@ -8,7 +8,7 @@ hrV.nome = "hrv";
 hrV.ano = 2024;
 console.log(hrV);
 
-// Parâmetros
+// Parâmetros e argumentos
 
 function Moto(marca, ano) {
   this.marca = marca;
@@ -17,3 +17,6 @@ function Moto(marca, ano) {
 
 const motocross = new Moto("honda", 2023);
 console.log(motocross);
+
+
+// This Keyword
