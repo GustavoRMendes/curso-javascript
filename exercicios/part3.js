@@ -64,3 +64,10 @@ function primo(num) {
   }
   return true;
 }
+
+// Função que some dois números
+
+function somaDoisNumeros(numero1, numero2) {
+  console.log(numero1 + numero2);
+}
+somaDoisNumeros(10, 20); // 30
