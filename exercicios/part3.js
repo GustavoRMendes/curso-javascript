@@ -54,3 +54,13 @@ function converterLetra(frase) {
   const maiusculo = frase.toUpperCase();
   console.log(maiusculo);
 }
+
+// Desenvolva uma função que determine se um número é primo ou não. Retorne true se for primo e false se não for.
+
+function primo(num) {
+  if (num <= 1) return false;
+  for (let i = 2; i <= Math.sqrt(num); i++) {
+    if (num % i === 0) return false;
+  }
+  return true;
+}
