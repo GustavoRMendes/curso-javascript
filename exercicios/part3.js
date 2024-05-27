@@ -35,3 +35,15 @@ function mensagem(nome) {
   alert(`Seja Bem-Vindo ${nome}!`);
 }
 mensagem("Gustavo");
+
+// Desenvolva uma função que receba um número como parâmetro e verifique se ele é par ou ímpar. Retorne true se for par e false se for ímpar.
+
+function verificarNumero(numero) {
+  if (numero % 2 === 0) {
+    console.log("é par");
+  } else {
+    console.log("é impar");
+  }
+}
+verificarNumero(10);
+verificarNumero(15);
