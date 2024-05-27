@@ -71,3 +71,11 @@ function somaDoisNumeros(numero1, numero2) {
   console.log(numero1 + numero2);
 }
 somaDoisNumeros(10, 20); // 30
+
+// Escreva uma função que receba uma string como entrada e retorne a string invertida. Exemplo: "oi mundo!" -> "!odnum oi".
+
+function inverter(mensagem) {
+  const palavraInvertida = mensagem.reverse().join("");
+}
+
+inverter("mensagem");
