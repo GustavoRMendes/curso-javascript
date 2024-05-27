@@ -18,5 +18,10 @@ function Moto(marca, ano) {
 const motocross = new Moto("honda", 2023);
 console.log(motocross);
 
+function Time(nome, divisao) {
+  this.nome = nome;
+  this.divisao = divisao;
+}
+const impetuosa = new Time("Atlética Impetuosa", "A");
 
 // This Keyword
