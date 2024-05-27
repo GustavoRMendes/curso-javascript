@@ -6,3 +6,16 @@ const numero2 = Number(prompt("Digite o segundo número: "));
 const numero3 = Number(prompt("Digite o terceiro número: "));
 const media = (numero1 + numero2 + numero3) / 3;
 console.log("A média dos três números inseridos por você resulta em " + media);
+
+// Verificar Palíndromo:
+// Crie uma função que recebe uma string como entrada e verifica se é um palíndromo (ou seja, se pode ser lida da mesma forma da esquerda para a direita e vice-versa).
+
+function verificarPalindromo(palavra) {
+  palavra = palavra.toLowerCase().replace(/ /g, "");
+  palavraInvertida = palavra.split("").reverse().join("");
+  if (palavra === palavraInvertida) {
+    return true;
+  } else {
+    return false;
+  }
+}
