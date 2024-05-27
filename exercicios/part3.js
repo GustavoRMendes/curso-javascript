@@ -12,10 +12,19 @@ console.log("A média dos três números inseridos por você resulta em " + medi
 
 function verificarPalindromo(palavra) {
   palavra = palavra.toLowerCase().replace(/ /g, "");
-  palavraInvertida = palavra.split("").reverse().join("");
+  const palavraInvertida = palavra.split("").reverse().join("");
   if (palavra === palavraInvertida) {
     return true;
   } else {
     return false;
   }
+}
+
+// Contar Vogais:
+// Escreva uma função que aceite uma string como entrada e retorne o número de vogais presentes nessa string.
+
+function contadorDeVogais(texto) {
+  const regexVogais = /[aeiou]/gi;
+  const numeroVogais = texto.match(regexVogais).length;
+  return numeroVogais;
 }
