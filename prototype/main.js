@@ -20,3 +20,6 @@ Pessoa.prototype.respirar = function () {
 
 // __proto__
 // Papel da engine fazer a busca pelo __proto__
+
+// Herança de Protótipo
+Object.prototype;
