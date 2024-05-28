@@ -17,3 +17,6 @@ Pessoa.prototype.andar = function () {
 Pessoa.prototype.respirar = function () {
   return this.nome + " respirou";
 };
+
+// __proto__
+// Papel da engine fazer a busca pelo __proto__
