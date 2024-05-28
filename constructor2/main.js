@@ -20,3 +20,5 @@ const lastLi = new Dom("li:last-child");
 const li = new Dom("li");
 const ul = new Dom("ul");
 ul.ativar("ul-ativa");
+
+// Exercises
