@@ -16,6 +16,7 @@ Animal.prototype.falar = function () {
 };
 const cachorro = new Animal("TimTim");
 cachorro.falar();
+console.log(cachorro.toString()); // Object Object
 // Adicionar propriedade ou método no objeto prototype da função.
 // Primeiro ele procura se existe o método ou propriedade no objeto.
 Pessoa.prototype.andar = function () {
