@@ -23,3 +23,5 @@ Pessoa.prototype.respirar = function () {
 
 // Herança de Protótipo
 Object.prototype;
+
+// Construtores nativos
