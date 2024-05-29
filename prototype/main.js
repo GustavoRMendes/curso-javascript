@@ -6,17 +6,12 @@ function Pessoa(nome, idade) {
     return "Andou pela propriedade do objeto";
   };
 }
-
-const gustavo = new Pessoa("Gustavo", 19);
 function Animal(nome) {
   this.nome = nome;
 }
-Animal.prototype.falar = function () {
-  console.log("Hello, my name is " + this.nome);
-};
+const gustavo = new Pessoa("Gustavo", 19);
 const cachorro = new Animal("TimTim");
-cachorro.falar();
-console.log(cachorro.toString()); // Object Object
+
 // Adicionar propriedade ou método no objeto prototype da função.
 // Primeiro ele procura se existe o método ou propriedade no objeto.
 Pessoa.prototype.andar = function () {
@@ -25,6 +20,12 @@ Pessoa.prototype.andar = function () {
 Pessoa.prototype.respirar = function () {
   return this.nome + " respirou";
 };
+
+Animal.prototype.falar = function () {
+  console.log("Hello, my name is " + this.nome);
+};
+cachorro.falar();
+console.log(cachorro.toString()); // Object Object
 
 // __proto__
 // Papel da engine fazer a busca pelo __proto__
