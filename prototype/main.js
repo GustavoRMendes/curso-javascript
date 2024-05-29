@@ -8,7 +8,14 @@ function Pessoa(nome, idade) {
 }
 
 const gustavo = new Pessoa("Gustavo", 19);
-
+function Animal(nome) {
+  this.nome = nome;
+}
+Animal.prototype.falar = function () {
+  console.log("Hello, my name is " + this.nome);
+};
+const cachorro = new Animal("TimTim");
+cachorro.falar();
 // Adicionar propriedade ou método no objeto prototype da função.
 // Primeiro ele procura se existe o método ou propriedade no objeto.
 Pessoa.prototype.andar = function () {
