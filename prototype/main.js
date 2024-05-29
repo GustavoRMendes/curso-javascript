@@ -26,7 +26,10 @@ Object.prototype;
 
 // Construtores nativos
 
-const país = "Brasil";
+const pais = "Brasil";
 const cidade = new String("Porto Velho");
 
 cidade.toUpperCase();
+
+pais.charAt(0);
+cidade.charAt(2);
