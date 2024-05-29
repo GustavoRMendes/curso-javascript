@@ -25,3 +25,8 @@ Pessoa.prototype.respirar = function () {
 Object.prototype;
 
 // Construtores nativos
+
+const país = "Brasil";
+const cidade = new String("Porto Velho");
+
+cidade.toUpperCase();
