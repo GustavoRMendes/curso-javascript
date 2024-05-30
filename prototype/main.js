@@ -13,11 +13,12 @@ function Pessoa(nome, idade) {
     return "Andou pela propriedade do objeto";
   };
 }
-function Animal(nome) {
+function Animal(nome, age) {
   this.nome = nome;
+  this.age = age;
 }
 const gustavo = new Pessoa("Gustavo", 19);
-const cachorro = new Animal("TimTim");
+const cachorro = new Animal("TimTim", 2);
 
 // Adicionar propriedade ou método no objeto prototype da função.
 // Primeiro ele procura se existe o método ou propriedade no objeto.
