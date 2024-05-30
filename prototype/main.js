@@ -18,6 +18,7 @@ function Animal(nome, age) {
   this.age = age;
 }
 const gustavo = new Pessoa("Gustavo", 19);
+const felipe = new Pessoa("Felipe", 19);
 const cachorro = new Animal("TimTim", 2);
 const cavalo = new Animal("Loppi", 5);
 
