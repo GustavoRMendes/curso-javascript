@@ -42,3 +42,14 @@ cidade.toUpperCase();
 pais.toLowerCase();
 pais.charAt(0);
 cidade.charAt(2);
+
+// Acessar a função do protótipo
+
+String.prototype.toLowerCase();
+
+const listaAnimais = ["Gato", "Cavalo", "Urso"];
+console.log(listaAnimais);
+
+// Retornar uma array
+const lista = document.querySelectorAll("li");
+const listaArray = Array.prototype.slice.call(lista);
