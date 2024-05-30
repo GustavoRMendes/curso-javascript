@@ -6,6 +6,9 @@ function Pessoa(nome, idade) {
     rua: "Avenida Sete de Setembro",
     numero: 6795,
   };
+  this.falar = function () {
+    console.log("Oi");
+  };
   this.andar = function () {
     return "Andou pela propriedade do objeto";
   };
