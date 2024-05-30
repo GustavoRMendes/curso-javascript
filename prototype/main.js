@@ -19,6 +19,7 @@ function Animal(nome, age) {
 }
 const gustavo = new Pessoa("Gustavo", 19);
 const cachorro = new Animal("TimTim", 2);
+const cavalo = new Animal("Loppi", 5);
 
 // Adicionar propriedade ou método no objeto prototype da função.
 // Primeiro ele procura se existe o método ou propriedade no objeto.
