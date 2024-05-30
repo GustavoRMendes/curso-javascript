@@ -2,6 +2,10 @@
 function Pessoa(nome, idade) {
   this.nome = nome;
   this.idade = idade;
+  this.endereco = {
+    rua: "Avenida Sete de Setembro",
+    numero: 6795,
+  };
   this.andar = function () {
     return "Andou pela propriedade do objeto";
   };
