@@ -115,4 +115,4 @@ console.log(li.hidden.constructor.name); // Boolean
 console.log(li.offsetLeft.constructor.name); // Number
 li.click(); // Undefined
 // Qual o construtor do dado abaixo:
-li.hidden.constructor.name; // Boolean
+li.hidden.constructor.name; // String = "Boolean"
