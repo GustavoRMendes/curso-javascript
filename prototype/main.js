@@ -79,3 +79,5 @@ console.log(typeof Carro); // object
 console.log(Carro.marca.constructor.name); // String
 console.log(Carro.preco.constructor.name); // Number
 console.log(Carro.andar.constructor.name); // Function
+
+// Exercício
