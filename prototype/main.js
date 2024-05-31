@@ -81,3 +81,36 @@ console.log(Carro.preco.constructor.name); // Number
 console.log(Carro.andar.constructor.name); // Function
 
 // Exercício
+// Crie uma função construtora de Pessoas
+// Deve conter nome, sobrenome e idade
+// Crie um método no protótipo que retorne
+// o nome completo da pessoa
+function Pessoa(nome, sobrenome, idade) {
+  this.nome = nome;
+  this.sobrenome = sobrenome;
+  this.idade = idade;
+}
+Pessoa.prototype.nomeCompleto = function () {
+  return this.nome + " " + this.sobrenome;
+};
+// Liste os métodos acessados por
+// dados criados com NodeList,
+// HTMLCollection, Document
+
+// Node List = For Each, Item, Entries, Keys and Value
+// HTMLCollection = Call,Apply, Bind, To String
+// Document
+
+// Liste os construtores dos dados abaixo
+const li = document.querySelector("li");
+
+console.log(li.constructor.name); // HTTMLIElement
+li.click; // function
+console.log(li.innerText.constructor.name); // String
+console.log(li.value.constructor.name); // Number
+console.log(li.hidden.constructor.name); // Boolean
+console.log(li.offsetLeft.constructor.name); // Number
+li.click();
+
+// Qual o construtor do dado abaixo:
+li.hidden.constructor.name; // Boolean
