@@ -113,7 +113,6 @@ console.log(li.innerText.constructor.name); // String
 console.log(li.value.constructor.name); // Number
 console.log(li.hidden.constructor.name); // Boolean
 console.log(li.offsetLeft.constructor.name); // Number
-li.click();
-
+li.click(); // Undefined
 // Qual o construtor do dado abaixo:
 li.hidden.constructor.name; // Boolean
