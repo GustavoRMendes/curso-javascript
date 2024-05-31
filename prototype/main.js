@@ -63,3 +63,4 @@ console.log(listaAnimais);
 // Retornar uma array
 const lista = document.querySelectorAll("li"); // Node List
 const listaArray = Array.prototype.slice.call(lista); // Array
+const listaArray2 = Array.from(lista); // Array
