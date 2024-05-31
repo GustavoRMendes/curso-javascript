@@ -97,9 +97,12 @@ Pessoa.prototype.nomeCompleto = function () {
 // dados criados com NodeList,
 // HTMLCollection, Document
 
-// Node List = For Each, Item, Entries, Keys and Value
+// Node List
+console.log(Object.getOwnPropertyNames(NodeList.prototype));
 // HTMLCollection = Call,Apply, Bind, To String
+console.log(Object.getOwnPropertyNames(HTMLCollection.prototype));
 // Document
+console.log(Object.getOwnPropertyNames(Document.prototype));
 
 // Liste os construtores dos dados abaixo
 const li = document.querySelector("li");
