@@ -4,3 +4,8 @@
 
 // Host
 // HTMLCollection, NodeList, Element
+
+// User
+const person = {
+  firstName: "Gustavo",
+};
