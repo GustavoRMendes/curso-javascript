@@ -66,3 +66,16 @@ const listaArray = Array.prototype.slice.call(lista); // Array
 const listaArray2 = Array.from(lista); // Array
 
 Object.getOwnPropertyNames(Array);
+
+const Carro = {
+  marca: "Ford",
+  preco: 2000,
+  andar() {
+    return true;
+  },
+};
+
+console.log(typeof Carro); // object
+console.log(Carro.marca.constructor.name); // String
+console.log(Carro.preco.constructor.name); // Number
+console.log(Carro.andar.constructor.name); // Function
