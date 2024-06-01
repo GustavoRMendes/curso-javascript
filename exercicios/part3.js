@@ -84,6 +84,11 @@ function Pessoa(nome, sobrenome, idade) {
   this.nome = nome;
   this.sobrenome = sobrenome;
   this.idade = idade;
+  this.endereco = {
+    rua: "Sete de Setembro",
+    bairro: "Rio Madeira",
+    numero: 3984,
+  };
   this.falar = function () {
     console.log("Oi.");
   };
