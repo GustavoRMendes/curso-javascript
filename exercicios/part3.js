@@ -88,5 +88,8 @@ function Pessoa(nome, sobrenome, idade) {
     console.log("Oi.");
   };
 }
-
+Pessoa.prototype.andar = function () {
+  alert(this.nome + " andou");
+};
 const gustavo = new Pessoa("Gustavo", "Mendes", 19);
+gustavo.falar();
