@@ -98,4 +98,4 @@ Pessoa.prototype.andar = function () {
 };
 const gustavo = new Pessoa("Gustavo", "Mendes", 19);
 gustavo.falar();
-gustavo.andar();
+gustavo.andar.constructor.name;
