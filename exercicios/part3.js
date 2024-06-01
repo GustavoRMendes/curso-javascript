@@ -85,6 +85,7 @@ function Pessoa(nome, sobrenome, idade) {
   this.sobrenome = sobrenome;
   this.idade = idade;
   this.endereco = {
+    cidade: "Porto Velho",
     rua: "Sete de Setembro",
     bairro: "Rio Madeira",
     numero: 3984,
