@@ -79,3 +79,14 @@ function inverter(mensagem) {
 }
 
 inverter("mensagem");
+
+function Pessoa(nome, sobrenome, idade) {
+  this.nome = nome;
+  this.sobrenome = sobrenome;
+  this.idade = idade;
+  this.falar = function () {
+    console.log("Oi.");
+  };
+}
+
+const gustavo = new Pessoa("Gustavo", "Mendes", 19);
