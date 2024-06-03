@@ -38,3 +38,4 @@ function parOuImpar(numero) {
   }
 }
 parOuImpar(20);
+// --------------------------
