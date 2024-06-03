@@ -19,3 +19,10 @@ console.log(helloWorld.includes("World", 4)); //true
 const nomeCompleto = "Gustavo Rodrigues Mendes Valente";
 console.log(nomeCompleto.startsWith("Gustavo")); //true
 console.log(nomeCompleto.endsWith("Valente")); //true
+
+// slice()
+const mensagem = "Oi, tudo bem com você?";
+console.log(mensagem.slice(0, 2)); //Oi
+console.log(mensagem.slice(4, 12)); //tudo bem
+console.log(mensagem.slice(4)); //tudo bem com você?
+console.log(mensagem.slice(-1)); //?
