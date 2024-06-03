@@ -51,3 +51,8 @@ console.log(recado.replace("senhores", "meninas"));
 // split()
 const padrao = "Hello Como voce ta";
 console.log(padrao.split(" ")); // ["Hello", "Como" , "voce" , "ta"]
+
+// toLowerCase and toUpperCase
+const message = "Lógica";
+console.log(message.toLowerCase());
+console.log(message.toUpperCase());
