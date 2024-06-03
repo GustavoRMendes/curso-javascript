@@ -29,3 +29,8 @@ console.log(mensagem.slice(-1)); //?
 
 // substring()
 console.log(mensagem.substring(0));
+
+// indexOf and lastIndexOf
+const oracao = "Pai nosso que estás no céu";
+console.log(oracao.indexOf("P")); //0
+console.log(oracao.lastIndexOf("o")); //21
