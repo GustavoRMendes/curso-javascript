@@ -9,3 +9,5 @@
 const person = {
   firstName: "Gustavo",
 };
+
+// Exercise
