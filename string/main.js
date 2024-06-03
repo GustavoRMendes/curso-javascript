@@ -34,3 +34,8 @@ console.log(mensagem.substring(0));
 const oracao = "Pai nosso que estás no céu";
 console.log(oracao.indexOf("P")); //0
 console.log(oracao.lastIndexOf("o")); //21
+
+// padStart() and padEnd()
+const texto = "Oi";
+console.log(texto.padStart(5, ".")); //...Oi
+console.log(texto.padEnd(5, ".")); //Oi...
