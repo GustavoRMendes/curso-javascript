@@ -21,3 +21,11 @@ const nota3 = 8;
 const mediaDasNotas = (nota1 + nota2 + nota3) / 3;
 console.log(mediaDasNotas);
 // ------------------------------
+function verificacao(numero) {
+  if (numero < 10) {
+    console.log("Menor que 10");
+  } else {
+    console.log("Maior ou igual 10");
+  }
+}
+verificacao(20);
