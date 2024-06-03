@@ -47,3 +47,7 @@ console.log(repetirNome.repeat(3)); //GustavoGustavoGustavo
 // replace()
 const recado = "Olá senhores, vão limpar a sala!";
 console.log(recado.replace("senhores", "meninas"));
+
+// split()
+const padrao = "Hello Como voce ta";
+console.log(padrao.split(" ")); // ["Hello", "Como" , "voce" , "ta"]
