@@ -20,3 +20,4 @@ const nota2 = 10;
 const nota3 = 8;
 const mediaDasNotas = (nota1 + nota2 + nota3) / 3;
 console.log(mediaDasNotas);
+// ------------------------------
