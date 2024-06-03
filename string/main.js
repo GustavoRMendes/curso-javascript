@@ -39,3 +39,7 @@ console.log(oracao.lastIndexOf("o")); //21
 const texto = "Oi";
 console.log(texto.padStart(5, ".")); //...Oi
 console.log(texto.padEnd(5, ".")); //Oi...
+
+// repeat()
+const repetirNome = "Gustavo";
+console.log(repetirNome.repeat(3)); //GustavoGustavoGustavo
