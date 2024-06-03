@@ -15,3 +15,8 @@ const idade = 18;
 const resultado = idade >= 18 ? "Maior de idade" : "Menor de idade";
 console.log(resultado);
 // -------------------------------
+const nota1 = 10;
+const nota2 = 10;
+const nota3 = 8;
+const mediaDasNotas = (nota1 + nota2 + nota3) / 3;
+console.log(mediaDasNotas);
