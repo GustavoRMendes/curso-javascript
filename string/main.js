@@ -56,3 +56,9 @@ console.log(padrao.split(" ")); // ["Hello", "Como" , "voce" , "ta"]
 const message = "Lógica";
 console.log(message.toLowerCase());
 console.log(message.toUpperCase());
+
+// trim(), trimStart, trimEnd
+const espacos = "    Oi tudo bom?           ";
+console.log(espacos.trim());
+console.log(espacos.trimStart());
+console.log(espacos.trimEnd());
