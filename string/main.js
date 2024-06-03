@@ -43,3 +43,7 @@ console.log(texto.padEnd(5, ".")); //Oi...
 // repeat()
 const repetirNome = "Gustavo";
 console.log(repetirNome.repeat(3)); //GustavoGustavoGustavo
+
+// replace()
+const recado = "Olá senhores, vão limpar a sala!";
+console.log(recado.replace("senhores", "meninas"));
