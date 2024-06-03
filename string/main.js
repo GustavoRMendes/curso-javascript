@@ -14,3 +14,8 @@ console.log(linguagem.concat(frase));
 const helloWorld = "Hello World!";
 console.log(helloWorld.includes("Hello")); //true
 console.log(helloWorld.includes("World", 4)); //true
+
+// startsWith() and endsWith()
+const nomeCompleto = "Gustavo Rodrigues Mendes Valente";
+console.log(nomeCompleto.startsWith("Gustavo")); //true
+console.log(nomeCompleto.endsWith("Valente")); //true
