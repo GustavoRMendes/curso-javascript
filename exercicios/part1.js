@@ -37,3 +37,4 @@ function parOuImpar(numero) {
     console.log("Impar");
   }
 }
+parOuImpar(20);
