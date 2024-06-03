@@ -26,3 +26,6 @@ console.log(mensagem.slice(0, 2)); //Oi
 console.log(mensagem.slice(4, 12)); //tudo bem
 console.log(mensagem.slice(4)); //tudo bem com você?
 console.log(mensagem.slice(-1)); //?
+
+// substring()
+console.log(mensagem.substring(0));
