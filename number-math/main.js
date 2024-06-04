@@ -16,3 +16,6 @@ console.log(Number.parseInt(numero));
 // toFixed
 const numeroAleatorio = 18.382882862651;
 console.log(numeroAleatorio.toFixed(2));
+
+// toString(radix)
+console.log(numeroAleatorio.toString(10));
