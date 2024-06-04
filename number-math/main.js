@@ -28,3 +28,9 @@ console.log(
 
 // Math
 console.log(Math.PI);
+
+// abs, ceil, floor, round
+console.log(Math.abs(numero));
+console.log(Math.ceil(numero));
+console.log(Math.floor(numero));
+console.log(Math.round(numero));
