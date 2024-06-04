@@ -19,3 +19,9 @@ console.log(numeroAleatorio.toFixed(2));
 
 // toString(radix)
 console.log(numeroAleatorio.toString(10));
+
+// toLocaleString(lang,options)
+const dinheiro = 18.28;
+console.log(
+  dinheiro.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })
+);
