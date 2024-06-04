@@ -25,3 +25,6 @@ const dinheiro = 18.28;
 console.log(
   dinheiro.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })
 );
+
+// Math
+console.log(Math.PI);
