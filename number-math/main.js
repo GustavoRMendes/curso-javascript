@@ -40,4 +40,28 @@ console.log(Math.random());
 console.log(Math.max(18, 28, 482, 484, 4));
 console.log(Math.min(18, 28, 482, 484, 4));
 console.log(Math.floor(Math.random() * 100));
-console.log(Math.floor(Math.random() * (20 - 40 + 1) + 40));
+console.log(Math.floor(Math.random() * (40 - 20 + 1) + 20));
+
+// Exercise
+// Retorne um número aleatório
+// entre 1050 e 2000
+console.log(Math.floor(Math.random() * (2000 - 1050 + 1) + 1050));
+
+// Crie uma função para limpar os preços
+// e retornar os números com centavos arredondados
+// depois retorne a soma total
+
+const listaPrecos = ["R$ 59,99", " R$ 100,222", "R$ 230  ", "r$  200"];
+
+function limparPreco(preco) {
+  preco = +preco.toUpperCase().replace("R$", "").trim().replace(",", ".");
+  preco = +preco.toFixed(2);
+  return preco;
+}
+let soma = 0;
+listaPrecos.forEach((preco) => {
+  soma += limparPreco(preco);
+});
+console.log(
+  soma.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })
+);
