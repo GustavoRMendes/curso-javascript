@@ -34,3 +34,10 @@ console.log(Math.abs(numero));
 console.log(Math.ceil(numero));
 console.log(Math.floor(numero));
 console.log(Math.round(numero));
+
+// max, min, random
+console.log(Math.random());
+console.log(Math.max(18, 28, 482, 484, 4));
+console.log(Math.min(18, 28, 482, 484, 4));
+console.log(Math.floor(Math.random() * 100));
+console.log(Math.floor(Math.random() * (20 - 40 + 1) + 40));
