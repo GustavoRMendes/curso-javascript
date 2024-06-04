@@ -9,3 +9,6 @@ console.log(Number.isInteger(idade)); // true
 
 // parseFloat
 console.log(Number.parseFloat(numero));
+
+// parseInt
+console.log(Number.parseInt(numero));
