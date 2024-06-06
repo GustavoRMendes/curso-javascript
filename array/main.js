@@ -31,3 +31,5 @@ console.log(objArray);
 console.log(Array.isArray(objArray));
 console.log(Array.isArray(li));
 console.log(Array.isArray(arrayLi));
+
+// Array.of , Array(), new Array()
