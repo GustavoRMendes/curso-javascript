@@ -14,7 +14,15 @@ console.log(lista[20]);
 console.log(carros.length);
 
 // Array.from()
+
+const obj = {
+  0: "Gustavo",
+  1: "Mendes",
+  length: 2,
+};
+const objArray = Array.from(obj);
 const li = document.querySelectorAll("li"); // NodeList
 const arrayLi = Array.from(li); // Array
 console.log(li);
 console.log(arrayLi);
+console.log(objArray);
