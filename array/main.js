@@ -5,8 +5,10 @@ const carros = new Array("Corola", "Mustang", "Honda");
 
 lista[3] = "Camilo";
 lista[0] = "Rian";
+lista[20] = "Zanol";
 console.log(lista[0]);
 console.log(lista[1]);
 console.log(lista[2]);
 console.log(lista[3]);
+console.log(lista[20]);
 console.log(carros.length);
