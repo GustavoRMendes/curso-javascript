@@ -5,3 +5,4 @@ const carros = new Array("Corola", "Mustang", "Honda");
 console.log(lista[0]);
 console.log(lista[1]);
 console.log(lista[2]);
+console.log(carros.length);
