@@ -28,3 +28,6 @@ console.log(arrayLi);
 console.log(objArray);
 
 // isArray()
+console.log(Array.isArray(objArray));
+console.log(Array.isArray(li));
+console.log(Array.isArray(arrayLi));
