@@ -39,3 +39,7 @@ console.log(new Array(10));
 console.log(Array(19));
 
 // .length
+const frutas = ["Banana", "Maça", ["Pera", "Uva"]];
+console.log(frutas.length);
+console.log(frutas[0].length);
+console.log(frutas[2][1].length);
