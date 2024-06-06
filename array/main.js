@@ -37,3 +37,5 @@ console.log(Array.of(10));
 console.log(Array.of(10, 2, 3, 5, 6));
 console.log(new Array(10));
 console.log(Array(19));
+
+// .length
