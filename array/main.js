@@ -14,3 +14,7 @@ console.log(lista[20]);
 console.log(carros.length);
 
 // Array.from()
+const li = document.querySelectorAll("li"); // NodeList
+const arrayLi = Array.from(li); // Array
+console.log(li);
+console.log(arrayLi);
