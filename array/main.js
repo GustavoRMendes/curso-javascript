@@ -12,3 +12,5 @@ console.log(lista[2]);
 console.log(lista[3]);
 console.log(lista[20]);
 console.log(carros.length);
+
+// Array.from()
