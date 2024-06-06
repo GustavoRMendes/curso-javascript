@@ -26,3 +26,5 @@ const arrayLi = Array.from(li); // Array
 console.log(li);
 console.log(arrayLi);
 console.log(objArray);
+
+// isArray()
