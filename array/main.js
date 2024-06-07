@@ -44,3 +44,4 @@ const frutas = ["Banana", "Maça", ["Pera", "Uva"]];
 console.log(frutas.length);
 console.log(frutas[0].length);
 console.log(frutas[2][1].length);
+console.log(frutas[2][0].length);
