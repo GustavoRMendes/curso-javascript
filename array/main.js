@@ -1,5 +1,5 @@
 // Array
-const lista = ["Gustavo", "Felipe", "Téo"];
+const lista = ["Gustavo", "Felipe", "Téo", "Victor", "Portuga"];
 const precos = [10, 20, 30, 40];
 const carros = new Array("Corola", "Mustang", "Honda");
 
