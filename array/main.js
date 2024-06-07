@@ -18,7 +18,8 @@ console.log(carros.length);
 const obj = {
   0: "Gustavo",
   1: "Mendes",
-  length: 2,
+  2: "Rodrigues",
+  length: 3,
 };
 const objArray = Array.from(obj);
 const li = document.querySelectorAll("li"); // NodeList
