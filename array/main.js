@@ -14,7 +14,6 @@ console.log(lista[20]);
 console.log(carros.length);
 
 // Array.from()
-
 const obj = {
   0: "Gustavo",
   1: "Mendes",
@@ -34,12 +33,14 @@ console.log(Array.isArray(objArray));
 console.log(Array.isArray(li));
 console.log(Array.isArray(arrayLi));
 
-// Array.of , Array(), new Array()
+// Array.of
 console.log(Array.of(10));
 console.log(Array.of("foo", 2, "bar", true));
 console.log(Array.of());
 console.log(Array.of(10, 2, 3, 5, 6));
+// new Array()
 console.log(new Array(10));
+// Array()
 console.log(Array(19));
 
 // .length
