@@ -36,6 +36,8 @@ console.log(Array.isArray(arrayLi));
 
 // Array.of , Array(), new Array()
 console.log(Array.of(10));
+console.log(Array.of("foo", 2, "bar", true));
+console.log(Array.of());
 console.log(Array.of(10, 2, 3, 5, 6));
 console.log(new Array(10));
 console.log(Array(19));
