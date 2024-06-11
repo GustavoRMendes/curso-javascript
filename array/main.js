@@ -52,8 +52,9 @@ console.log(frutas[2][1].length);
 console.log(frutas[2][0].length);
 
 // sort()
-
 const comidas = ["Carne", "Peixe", "Frango", "Ovo"];
 const numerosAleatorios = [10, 38, 48, 2, 4, 72, 56, 79, 8];
 console.log(comidas.sort());
 console.log(numerosAleatorios.sort()); // Alinha de acordo com o primeiro caracter.
+
+// unshift and push
