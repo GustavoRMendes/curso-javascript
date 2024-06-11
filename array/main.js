@@ -92,8 +92,15 @@ console.log(["Messi", "Neymar", "Pelé", "Maradona"].fill("Cr7", 1, 2));
 // concat()
 const linguagens1 = ["Javascript", "Python", "C++"];
 const linguagens2 = ["Java", "Ruby", "C#"];
-const linguagens = linguagens1.concat(linguagens2);
+const linguagens = linguagens1.concat(linguagens2, "Javascript");
 console.log(linguagens);
 
 const maisLinguagens = [].concat(linguagens1, linguagens2, "C");
 console.log(maisLinguagens);
+
+// includes, indexOf, lastIndexOf
+console.log(linguagens.includes("css")); // false
+console.log(linguagens.includes("Python")); // true
+console.log(linguagens.indexOf("Python")); // 1
+console.log(linguagens.indexOf("Javascript")); // 0
+console.log(linguagens.lastIndexOf("Javascript")); // 6
