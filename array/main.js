@@ -50,3 +50,8 @@ console.log(frutas[frutas.length - 1]);
 console.log(frutas[0].length);
 console.log(frutas[2][1].length);
 console.log(frutas[2][0].length);
+
+// sort()
+
+const comidas = ["Carne", "Peixe", "Frango", "Ovo"];
+console.log(comidas.sort());
