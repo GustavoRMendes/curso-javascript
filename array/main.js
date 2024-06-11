@@ -69,3 +69,5 @@ console.log(jogadores.shift());
 console.log(jogadores);
 console.log(jogadores.pop());
 console.log(jogadores);
+
+// reverse
