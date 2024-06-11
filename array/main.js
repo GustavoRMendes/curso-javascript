@@ -67,3 +67,5 @@ console.log(jogadores);
 // shift and pop
 console.log(jogadores.shift());
 console.log(jogadores);
+console.log(jogadores.pop());
+console.log(jogadores);
