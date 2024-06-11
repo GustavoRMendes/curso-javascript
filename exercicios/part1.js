@@ -39,3 +39,10 @@ function parOuImpar(numero) {
 }
 parOuImpar(20);
 // --------------------------
+// Celsius to farenheit
+function celsiusToFarenheit(celsius) {
+  const resultado = celsius * 1.8 + 32;
+  return resultado;
+}
+console.log(celsiusToFarenheit(10));
+console.log(celsiusToFarenheit(20));
