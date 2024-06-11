@@ -73,4 +73,10 @@ console.log(jogadores);
 // reverse
 console.log(jogadores.reverse());
 
-// splice
+// splice (index, remover, item1, item2, ...)
+const animais = ["Camelo", "Vaca", "Boi", "Borboleta", "Cachorro"];
+console.log(animais);
+animais.splice(2, 0, "Gato"); // Retorna o 0 porque nada foi removido.
+console.log(animais);
+animais.splice(0, 1, "Lagartixa"); // ['Camelo']
+console.log(animais);
