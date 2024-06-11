@@ -72,3 +72,5 @@ console.log(jogadores);
 
 // reverse
 console.log(jogadores.reverse());
+
+// splice
