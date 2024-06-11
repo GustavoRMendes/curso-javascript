@@ -65,3 +65,5 @@ jogadores.push("Iniesta");
 console.log(jogadores);
 
 // shift and pop
+console.log(jogadores.shift());
+console.log(jogadores);
