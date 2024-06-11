@@ -71,3 +71,4 @@ console.log(jogadores.pop());
 console.log(jogadores);
 
 // reverse
+console.log(jogadores.reverse());
