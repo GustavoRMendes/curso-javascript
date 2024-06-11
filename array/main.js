@@ -111,3 +111,48 @@ console.log(linguagens.join(" "));
 // slice (inicio, final)
 console.log(linguagens.slice(0, 2)); // Javascript e python
 console.log(linguagens.slice(3, 5)); // Java e Ruby
+
+// Exercício
+const comidas1 = ["Pizza", "Frango", "Carne", "Macarrão"];
+// Remova o primeiro valor de comidas e coloque em uma variável
+const pizza = comidas1.shift();
+console.log(pizza);
+// Remova o último valor de comidas e coloque em uma variável
+const macarrao = comidas1.pop();
+console.log(macarrao);
+// Adicione 'Arroz' ao final da array
+const arroz = comidas1.push("Arroz");
+console.log(comidas1);
+// Adicione 'Peixe' e 'Batata' ao início da array
+const batata = comidas1.unshift("Batata");
+const peixe = comidas1.unshift("Peixe");
+console.log(comidas1);
+
+const estudantes = ["Marcio", "Brenda", "Joana", "Kleber", "Julia"];
+// Arrume os estudantes em ordem alfabética
+console.log(estudantes.sort());
+// Inverta a ordem dos estudantes
+console.log(estudantes.reverse());
+// Verifique se Joana faz parte dos estudantes
+console.log(estudantes.includes("Joana"));
+// Verifique se Juliana faz parte dos estudantes
+console.log(estudantes.includes("Juliana"));
+
+let html = `<section>
+              <div>Sobre</div>
+              <div>Produtos</div>
+              <div>Contato</div>
+            </section>`;
+// Substitua section por ul e div com li,
+// utilizando split e join
+html = html.split("section").join("ul");
+html = html.split("div").join("li");
+console.log(html.trim());
+
+const carros1 = ["Ford", "Fiat", "VW", "Honda"];
+// Remova o último carro, mas antes de remover
+// salve a array original em outra variável
+const carros2 = carros1.slice(0, 4);
+console.log(carros2);
+carros1.pop();
+console.log(carros1);
