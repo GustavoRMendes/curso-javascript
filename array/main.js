@@ -107,3 +107,7 @@ console.log(linguagens.lastIndexOf("Javascript")); // 6
 
 // join
 console.log(linguagens.join(" "));
+
+// slice (inicio, final)
+console.log(linguagens.slice(0, 2)); // Javascript e python
+console.log(linguagens.slice(3, 5)); // Java e Ruby
