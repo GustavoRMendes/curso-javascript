@@ -61,3 +61,5 @@ console.log(numerosAleatorios.sort()); // Alinha de acordo com o primeiro caract
 const jogadores = ["Neymar", "Ronaldo", "Vinícius Júnior"];
 jogadores.unshift("Messi");
 console.log(jogadores);
+jogadores.push("Iniesta");
+console.log(jogadores);
