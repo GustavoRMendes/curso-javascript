@@ -83,3 +83,6 @@ console.log(animais);
 
 // copyWithin ( alvo, inicio, final)
 console.log(["Item1", "Item2", "Item3", "Item4", "Item5"].copyWithin(2, 0, 3));
+
+// fill (valor,inicio,final)
+console.log(["Messi", "Neymar", "Pelé", "Maradona"].fill("Cr7", 1, 2));
