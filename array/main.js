@@ -63,3 +63,5 @@ jogadores.unshift("Messi");
 console.log(jogadores);
 jogadores.push("Iniesta");
 console.log(jogadores);
+
+// shift and pop
