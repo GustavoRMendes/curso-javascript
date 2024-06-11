@@ -80,3 +80,6 @@ animais.splice(2, 0, "Gato"); // Retorna o 0 porque nada foi removido.
 console.log(animais);
 animais.splice(0, 1, "Lagartixa"); // ['Camelo']
 console.log(animais);
+
+// copyWithin ( alvo, inicio, final)
+console.log(["Item1", "Item2", "Item3", "Item4", "Item5"].copyWithin(2, 0, 3));
