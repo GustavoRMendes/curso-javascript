@@ -86,3 +86,14 @@ console.log(["Item1", "Item2", "Item3", "Item4", "Item5"].copyWithin(2, 0, 3));
 
 // fill (valor,inicio,final)
 console.log(["Messi", "Neymar", "Pelé", "Maradona"].fill("Cr7", 1, 2));
+
+// Métodos de acesso Arrays
+
+// concat()
+const linguagens1 = ["Javascript", "Python", "C++"];
+const linguagens2 = ["Java", "Ruby", "C#"];
+const linguagens = linguagens1.concat(linguagens2);
+console.log(linguagens);
+
+const maisLinguagens = [].concat(linguagens1, linguagens2, "C");
+console.log(maisLinguagens);
