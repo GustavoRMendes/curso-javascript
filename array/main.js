@@ -58,3 +58,6 @@ console.log(comidas.sort());
 console.log(numerosAleatorios.sort()); // Alinha de acordo com o primeiro caracter.
 
 // unshift and push
+const jogadores = ["Neymar", "Ronaldo", "Vinícius Júnior"];
+jogadores.unshift("Messi");
+console.log(jogadores);
