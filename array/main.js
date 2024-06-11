@@ -104,3 +104,6 @@ console.log(linguagens.includes("Python")); // true
 console.log(linguagens.indexOf("Python")); // 1
 console.log(linguagens.indexOf("Javascript")); // 0
 console.log(linguagens.lastIndexOf("Javascript")); // 6
+
+// join
+console.log(linguagens.join(" "));
