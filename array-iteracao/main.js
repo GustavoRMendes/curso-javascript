@@ -13,4 +13,4 @@ animais.forEach(function (item) {
 const li = document.querySelectorAll("li");
 li.forEach((item, index) => item.classList.add("ativo" + index));
 
-// map
+// map(callback(itemAtual,index,array))
