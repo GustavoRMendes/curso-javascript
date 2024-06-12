@@ -18,3 +18,8 @@ const mapRetornaArray = animais.map((item, index, array) => {
   return item.toUpperCase() + " - " + index;
 });
 console.log(mapRetornaArray);
+const numeros = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
+const dobroDosNumeros = numeros.map((num) => {
+  return num * 2;
+});
+console.log(dobroDosNumeros);
