@@ -10,3 +10,6 @@ animais.forEach(function (item) {
 });
 
 // Arrow Function
+
+const li = document.querySelectorAll("li");
+li.forEach((item) => item.classList.add("ativo"));
