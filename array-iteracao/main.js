@@ -8,3 +8,5 @@ animais.forEach((item, index, array) => {
 animais.forEach(function (item) {
   console.log(item.toLowerCase());
 });
+
+// Arrow Function
