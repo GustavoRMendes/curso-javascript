@@ -12,4 +12,4 @@ animais.forEach(function (item) {
 // Arrow Function
 
 const li = document.querySelectorAll("li");
-li.forEach((item) => item.classList.add("ativo"));
+li.forEach((item, index) => item.classList.add("ativo" + index));
