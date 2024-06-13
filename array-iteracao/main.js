@@ -43,5 +43,5 @@ const aulas = [
   },
 ];
 const tempoAula = aulas.map((aula) => {
-  return console.log(aula.min);
+  return console.log("O tempo da aula é " + aula.min + " minutos");
 });
