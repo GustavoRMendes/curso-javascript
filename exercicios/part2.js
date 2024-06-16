@@ -16,3 +16,9 @@ const pessoa = {
 
 // symbol
 const simbolo = Symbol();
+
+// function
+function showMessage(message) {
+  return message;
+}
+console.log(showMessage("Helllo"));
