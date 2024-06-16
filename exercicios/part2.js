@@ -43,3 +43,12 @@ if (idade > 18) {
 } else {
   console.log("Menor");
 }
+
+// else if
+if (idade < 19) {
+  console.log("Menor que 19");
+} else if (idade == 19) {
+  console.log("Igual");
+} else {
+  console.log("Maior");
+}
