@@ -6,3 +6,10 @@ variavel = "texto";
 // number and string
 const texto = "";
 const numero = 10;
+
+// array and object
+const lista = ["Maça", "Banana", "Uva"];
+const pessoa = {
+  nome: "Felipe",
+  idade: 19,
+};
