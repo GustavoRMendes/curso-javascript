@@ -52,3 +52,6 @@ if (idade < 19) {
 } else {
   console.log("Maior");
 }
+
+// Math
+const PI = Math.PI;
