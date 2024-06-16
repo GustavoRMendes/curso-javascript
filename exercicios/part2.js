@@ -28,3 +28,10 @@ const li = document.querySelectorAll("li");
 li.forEach((li) => {
   li.classList.add("ativo");
 });
+
+// constructor function
+function Pessoa(nome, idade) {
+  this.nome = nome;
+  this.idade = idade;
+}
+const gustavo = new Pessoa("Gustavo", 19);
