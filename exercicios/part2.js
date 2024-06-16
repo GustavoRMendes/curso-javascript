@@ -35,3 +35,11 @@ function Pessoa(nome, idade) {
   this.idade = idade;
 }
 const gustavo = new Pessoa("Gustavo", 19);
+
+// if else
+const idade = 19;
+if (idade > 18) {
+  console.log("Maior");
+} else {
+  console.log("Menor");
+}
