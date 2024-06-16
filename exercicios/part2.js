@@ -13,3 +13,6 @@ const pessoa = {
   nome: "Felipe",
   idade: 19,
 };
+
+// symbol
+const simbolo = Symbol();
