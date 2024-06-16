@@ -55,3 +55,5 @@ if (idade < 19) {
 
 // Math
 const PI = Math.PI;
+
+// while, do while and for
