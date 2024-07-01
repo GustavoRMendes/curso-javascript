@@ -95,8 +95,9 @@ console.log(numeroAletorioFloor);
 
 // Array
 const listaDeNumeros = [1, 2, 3, 4, 5];
-console.log(listaDeNumeros);
 const primeroDaLista = listaDeNumeros[0];
 const ultimoDaLista = listaDeNumeros[listaDeNumeros.length - 1];
 console.log(primeroDaLista);
 console.log(ultimoDaLista);
+listaDeNumeros[3] = 70;
+console.log(listaDeNumeros);
