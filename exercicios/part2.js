@@ -57,6 +57,8 @@ if (idade < 19) {
 const PI = Math.PI;
 const numeroAleatorio = Math.random() * 101;
 console.log(numeroAleatorio);
+const numeroAletorioFloor = Math.floor(Math.random() * 101);
+console.log(numeroAletorioFloor);
 // while, do while and for
 for (let i = 0; i < 10; i++) {
   console.log(i);
