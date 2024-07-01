@@ -24,10 +24,10 @@ function showMessage(message) {
 console.log(showMessage("Helllo"));
 
 // arrow function
-const li = document.querySelectorAll("li");
-li.forEach((li) => {
-  li.classList.add("ativo");
-});
+//const li = document.querySelectorAll("li");
+//li.forEach((li) => {
+//  li.classList.add("ativo");
+//});
 
 // constructor function
 function Pessoa(nome, idade) {
@@ -54,26 +54,26 @@ if (idade < 19) {
 }
 
 // switch
-let opcao = Number(prompt("Digite um numero de 1 a 5:"));
-switch (opcao) {
-  case 1:
-    console.log("1");
-    break;
-  case 2:
-    console.log("2");
-    break;
-  case 3:
-    console.log("3");
-    break;
-  case 4:
-    console.log("4");
-    break;
-  case 5:
-    console.log("5");
-    break;
-  default:
-    console.log("Nenhum dos números");
-}
+// let opcao = Number(prompt("Digite um numero de 1 a 5:"));
+// switch (opcao) {
+//   case 1:
+//     console.log("1");
+//     break;
+//   case 2:
+//     console.log("2");
+//     break;
+//   case 3:
+//     console.log("3");
+//     break;
+//   case 4:
+//     console.log("4");
+//     break;
+//   case 5:
+//     console.log("5");
+//     break;
+//   default:
+//     console.log("Nenhum dos números");
+// }
 // Math
 const PI = Math.PI;
 const numeroAleatorio = Math.random() * 101;
@@ -81,14 +81,22 @@ console.log(numeroAleatorio);
 const numeroAletorioFloor = Math.floor(Math.random() * 101);
 console.log(numeroAletorioFloor);
 // while, do while and for
-for (let i = 0; i < 10; i++) {
-  console.log(i);
-}
+// for (let i = 0; i < 10; i++) {
+//   console.log(i);
+// }
 
-while (true) {
-  // console.log("Enquanto for verdadeiro");
-}
+// while (true) {
+//   // console.log("Enquanto for verdadeiro");
+// }
 
-do {
-  // console.log("Faça, enquanto...");
-} while (false);
+// do {
+//   // console.log("Faça, enquanto...");
+// } while (false);
+
+// Array
+const listaDeNumeros = [1, 2, 3, 4, 5];
+console.log(listaDeNumeros);
+const primeroDaLista = listaDeNumeros[0];
+const ultimoDaLista = listaDeNumeros[listaDeNumeros.length - 1];
+console.log(primeroDaLista);
+console.log(ultimoDaLista);
