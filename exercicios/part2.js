@@ -60,3 +60,7 @@ const PI = Math.PI;
 while (true) {
   // console.log("Enquanto for verdadeiro");
 }
+
+do {
+  // console.log("Faça, enquanto...");
+} while (false);
