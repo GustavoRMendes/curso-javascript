@@ -53,6 +53,27 @@ if (idade < 19) {
   console.log("Maior");
 }
 
+// switch
+let opcao = Number(prompt("Digite um numero de 1 a 5:"));
+switch (opcao) {
+  case 1:
+    console.log("1");
+    break;
+  case 2:
+    console.log("2");
+    break;
+  case 3:
+    console.log("3");
+    break;
+  case 4:
+    console.log("4");
+    break;
+  case 5:
+    console.log("5");
+    break;
+  default:
+    console.log("Nenhum dos números");
+}
 // Math
 const PI = Math.PI;
 const numeroAleatorio = Math.random() * 101;
