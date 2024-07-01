@@ -57,3 +57,6 @@ if (idade < 19) {
 const PI = Math.PI;
 
 // while, do while and for
+while (true) {
+  // console.log("Enquanto for verdadeiro");
+}
