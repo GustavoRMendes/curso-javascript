@@ -74,9 +74,15 @@ const direita = frutasDaDireitaPraEsquerda.reduceRight((acc, item) => {
 
 console.log(direita);
 
-// some
+// some === procura pelo menos um verdadeiro
 const nomes = ["Gustavo", "Felipe", "Téo"];
 const maiorQue3 = nomes.some((n) => n.length > 3);
 const teo = nomes.some((n) => n === "téo");
 console.log(maiorQue3); // true
 console.log(teo); // false
+
+// every === procura o primeiro falso
+const numbers = [20, 30, 40, 50, 60, 70, 80, 90, 100];
+console.log(numbers.every((n) => n > 10));
+console.log(numbers.every((n) => n >= 30));
+console.log(numbers.every((n) => n === 100));
