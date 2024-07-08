@@ -86,3 +86,10 @@ const numbers = [20, 30, 40, 50, 60, 70, 80, 90, 100];
 console.log(numbers.every((n) => n > 10));
 console.log(numbers.every((n) => n >= 30));
 console.log(numbers.every((n) => n === 100));
+
+// find
+const findNumbers = [10, 20, 30, 40, 50, 60, 33, 5, 8];
+const findIndex20 = findNumbers.findIndex((n) => n === 20);
+const findIndex33 = findNumbers.findIndex((n) => n === 33);
+console.log(findIndex20); // 1
+console.log(findIndex33); // 6
