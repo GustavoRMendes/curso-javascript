@@ -65,3 +65,11 @@ const menorNumeroDaLista = lista.reduce((acc, item) => {
 });
 
 console.log(menorNumeroDaLista);
+
+// reduce right
+const frutasDaDireitaPraEsquerda = ["Banana", "Uva", "Pera"];
+const direita = frutasDaDireitaPraEsquerda.reduceRight((acc, item) => {
+  return acc + " " + item;
+});
+
+console.log(direita);
