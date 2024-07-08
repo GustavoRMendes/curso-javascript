@@ -54,3 +54,14 @@ const reduzir = reduceAulas.reduce((acc, item) => {
 }, 0);
 
 console.log(reduzir);
+
+const lista = [2, 4, 6, 8, 10, 12, 14, 16];
+const menorNumeroDaLista = lista.reduce((acc, item) => {
+  if (acc < item) {
+    return acc;
+  } else {
+    return item;
+  }
+});
+
+console.log(menorNumeroDaLista);
