@@ -73,3 +73,10 @@ const direita = frutasDaDireitaPraEsquerda.reduceRight((acc, item) => {
 });
 
 console.log(direita);
+
+// some
+const nomes = ["Gustavo", "Felipe", "Téo"];
+const maiorQue3 = nomes.some((n) => n.length > 3);
+const teo = nomes.some((n) => n === "téo");
+console.log(maiorQue3); // true
+console.log(teo); // false
