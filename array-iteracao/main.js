@@ -45,3 +45,12 @@ const aulas = [
 const tempoAula = aulas.map((aula) => {
   return console.log("O tempo da aula é de " + aula.min + " minutos");
 });
+
+// reduce
+const reduceAulas = [10, 20, 30];
+
+const reduzir = reduceAulas.reduce((acc, item) => {
+  return acc + item;
+}, 0);
+
+console.log(reduzir);
