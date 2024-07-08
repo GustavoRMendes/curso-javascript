@@ -87,9 +87,13 @@ console.log(numbers.every((n) => n > 10));
 console.log(numbers.every((n) => n >= 30));
 console.log(numbers.every((n) => n === 100));
 
-// find
+// findIndex
 const findNumbers = [10, 20, 30, 40, 50, 60, 33, 5, 8];
 const findIndex20 = findNumbers.findIndex((n) => n === 20);
 const findIndex33 = findNumbers.findIndex((n) => n === 33);
 console.log(findIndex20); // 1
 console.log(findIndex33); // 6
+
+// find
+const procurarMaiorque10 = findNumbers.find((numero) => numero > 10);
+console.log(procurarMaiorque10); // 20
