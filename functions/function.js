@@ -46,3 +46,10 @@ console.log(filtro);
 // apply
 const listaDeNumeros = [1, 2, 4, 5, 6, 7, 8, 9];
 console.log(Math.max.apply(null, listaDeNumeros));
+
+const lis = document.querySelectorAll("li");
+function itemLi(el) {
+  return el.classList.contains("ativo");
+}
+const lisApply = Array.prototype.filter.apply(li, [itemLi]);
+console.log(lisApply);
