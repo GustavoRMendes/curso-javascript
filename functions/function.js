@@ -17,6 +17,14 @@ function descricaoPessoa() {
 }
 descricaoPessoa();
 descricaoPessoa.call(pessoa);
+
+function mostrarNumero() {
+  return console.log(this.numero);
+}
+const meuNumero = {
+  numero: 47992442004,
+};
+mostrarNumero.call(meuNumero);
 //  apply
 
 // bind
