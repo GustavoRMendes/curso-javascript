@@ -25,6 +25,20 @@ const meuNumero = {
   numero: 47992442004,
 };
 mostrarNumero.call(meuNumero);
-//  apply
 
-// bind
+const animais = ["Burro", "Cavalo", "Cachorro"];
+const motos = ["Honda", "Mitsui", "Gw"];
+motos.forEach.call(motos, (moto) => {
+  console.log(moto);
+});
+motos.forEach.call(animais, (animal) => {
+  console.log(animal);
+});
+
+const li = document.querySelectorAll("li");
+
+const filtro = Array.prototype.filter.call(li, (el) => {
+  return el.classList.contains("ativo");
+});
+
+console.log(filtro);
