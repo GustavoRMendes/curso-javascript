@@ -53,3 +53,10 @@ function itemLi(el) {
 }
 const lisApply = Array.prototype.filter.apply(li, [itemLi]);
 console.log(lisApply);
+
+// bind
+const lis1 = document.querySelectorAll("li");
+const lisApply1 = Array.prototype.filter.bind(li, function (el) {
+  return el.classList.contains("ativo");
+});
+console.log(lisApply1());
