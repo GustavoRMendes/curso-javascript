@@ -3,11 +3,12 @@
 // aulas e horas de cada curso
 const cursos = document.querySelectorAll(".curso");
 const arrayCursos = Array.from(cursos);
-const objetosCursos = arrayCursos.map((cursos) => {
-  const titulo = cursos.querySelector("h1").innerText;
-  const descricao = cursos.querySelector("p").innerText;
-  const aulas = cursos.querySelector("span.aulas").innerText;
-  const horas = cursos.querySelector("span.horas").innerText;
+console.log(arrayCursos);
+const objetosCursos = arrayCursos.map((curso) => {
+  const titulo = curso.querySelector("h1").innerText;
+  const descricao = curso.querySelector("p").innerText;
+  const aulas = curso.querySelector("span.aulas").innerText;
+  const horas = curso.querySelector("span.horas").innerText;
   return {
     titulo,
     descricao,
