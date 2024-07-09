@@ -97,3 +97,8 @@ console.log(findIndex33); // 6
 // find
 const procurarMaiorque10 = findNumbers.find((numero) => numero > 10);
 console.log(procurarMaiorque10); // 20
+
+// filter
+const lanches = ["X-dog", "X-salada", "X-hambúrguer", "Hambúrguer"];
+const xlanches = lanches.filter((lanche) => lanche.includes("X"));
+console.log(xlanches);
