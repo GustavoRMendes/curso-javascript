@@ -60,3 +60,11 @@ const lisApply1 = Array.prototype.filter.bind(li, function (el) {
   return el.classList.contains("ativo");
 });
 console.log(lisApply1());
+
+function imc(altura, peso) {
+  return peso / (altura * altura);
+}
+
+const imc180 = imc.bind(null, 1.8);
+console.log(imc(1.74, 66));
+console.log(imc180(70));
