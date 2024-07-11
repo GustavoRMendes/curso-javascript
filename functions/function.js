@@ -43,6 +43,13 @@ const filtro = Array.prototype.filter.call(li, (el) => {
 
 console.log(filtro);
 
+const obj = {
+  saudacao: function (nome) {
+    console.log("Olá " + this.nome);
+  },
+};
+const humano = { nome: "Gustavo" };
+const resultadoHumano = obj.saudacao.call(humano);
 // apply
 const listaDeNumeros = [1, 2, 4, 5, 6, 7, 8, 9];
 console.log(Math.max.apply(null, listaDeNumeros));
@@ -54,6 +61,16 @@ function itemLi(el) {
 const lisApply = Array.prototype.filter.apply(li, [itemLi]);
 console.log(lisApply);
 
+const obj2 = {
+  mensagem: function (sobrenome) {
+    console.log("Minha mensagem para o senhor " + sobrenome);
+    console.log(this);
+  },
+};
+const pessoa3 = {
+  e: "texto",
+};
+obj2.mensagem.apply(pessoa3, ["Mendes"]);
 // bind
 const lis1 = document.querySelectorAll("li");
 const lisApply1 = Array.prototype.filter.bind(li, function (el) {
@@ -68,3 +85,15 @@ function imc(altura, peso) {
 const imc180 = imc.bind(null, 1.8);
 console.log(imc(1.74, 66));
 console.log(imc180(70));
+
+function nomeCompleto() {
+  console.log(this.nome + " " + this.sobrenome);
+}
+
+const pessoa2 = {
+  nome: "Gustavo",
+  sobrenome: "Mendes",
+};
+
+const resultado = nomeCompleto.bind(pessoa2);
+resultado();
