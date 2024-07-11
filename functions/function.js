@@ -97,3 +97,23 @@ const pessoa2 = {
 
 const resultado = nomeCompleto.bind(pessoa2);
 resultado();
+
+const ford = {
+  marca: "Ford",
+  acelerar(velocidade) {
+    console.log(
+      "O carro da marca " +
+        this.marca +
+        " atingiu uma velocidade de " +
+        velocidade +
+        " km/h"
+    );
+  },
+};
+const ferrari = {
+  marca: "Ferrari",
+};
+const resultado3 = ford.acelerar.bind(ferrari, 90);
+const resultado4 = ford.acelerar(30);
+console.log(resultado4);
+resultado3();
