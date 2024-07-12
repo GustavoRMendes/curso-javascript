@@ -1,17 +1,14 @@
 // Object
-const obj = {};
+const obj = {
+  nome: "Gustavo",
+  idade: 19,
+  profissao: "Programador",
+};
 const obj2 = new Object({
   nome: "Gustavo",
+  idade: 19,
+  profissao: "Programador",
 });
 
-// Object.create
-const moto = {
-  marca: "Marca",
-  buzinar() {
-    console.log("Moto " + marca + " buzinou");
-  },
-};
-const honda = Object.create(moto);
-console.log(honda);
-honda.marca = "honda";
-console.log(honda);
+console.log(obj);
+console.log(obj2);
