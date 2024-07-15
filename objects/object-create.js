@@ -1,6 +1,10 @@
-// Object create
+// Object.create(objeto, definePropriedades)
 
 const animal = {
+  iniciar(valor) {
+    this.idade = valor;
+    return this;
+  },
   comer() {
     return this.nome + " comeu...";
   },
@@ -8,7 +12,7 @@ const animal = {
     return this.nome + " andou...";
   },
 };
-const cavalo = Object.create(animal);
-cavalo.nome = "Cavalo";
-console.log(cavalo);
-console.log(cavalo.andar());
+const cachorro = Object.create(animal).iniciar(2);
+cachorro.nome = "Cachorro";
+console.log(cachorro);
+console.log(cachorro.andar());
