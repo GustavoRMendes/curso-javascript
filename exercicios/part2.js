@@ -86,11 +86,11 @@ console.log(numeroAletorioFloor);
 // }
 
 // while (true) {
-//   // console.log("Enquanto for verdadeiro");
+//  console.log("Enquanto for verdadeiro");
 // }
 
 // do {
-//   // console.log("Faça, enquanto...");
+//  console.log("Faça, enquanto...");
 // } while (false);
 
 // Array
