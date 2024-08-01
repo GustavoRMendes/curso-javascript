@@ -12,6 +12,7 @@ const nomes = ["Felipe", "Gustavo"];
 nomes.push("Téo");
 nomes.pop();
 nomes.unshift("Camilo");
+nomes.shift();
 const numbers = [1, 2, 3, 4, 5, 6];
 console.log(numbers.length);
 const lista = ["Maça", "Banana", "Uva"];
