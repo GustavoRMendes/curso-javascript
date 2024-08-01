@@ -9,6 +9,7 @@ const numero = 10;
 
 // array and object
 const numbers = [1, 2, 3, 4, 5, 6];
+console.log(numbers.length);
 const lista = ["Maça", "Banana", "Uva"];
 const pessoa = {
   nome: "Felipe",
