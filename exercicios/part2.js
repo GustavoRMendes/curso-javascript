@@ -8,6 +8,7 @@ const texto = "";
 const numero = 10;
 
 // array and object
+const numbers = [1, 2, 3, 4, 5, 6];
 const lista = ["Maça", "Banana", "Uva"];
 const pessoa = {
   nome: "Felipe",
