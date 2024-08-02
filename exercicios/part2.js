@@ -16,11 +16,6 @@ const pessoa = {
 // symbol
 const simbolo = Symbol();
 console.log(simbolo);
-// function
-function showMessage(message) {
-  return message;
-}
-console.log(showMessage("Helllo"));
 
 // arrow function =>
 //const li = document.querySelectorAll("li");
