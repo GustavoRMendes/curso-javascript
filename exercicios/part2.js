@@ -22,7 +22,7 @@ function showMessage(message) {
 }
 console.log(showMessage("Helllo"));
 
-// arrow function
+// arrow function =>
 //const li = document.querySelectorAll("li");
 //li.forEach((li) => {
 //  li.classList.add("ativo");
