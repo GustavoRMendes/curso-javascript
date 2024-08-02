@@ -108,13 +108,3 @@ console.log(primeroDaLista);
 console.log(ultimoDaLista);
 listaDeNumeros[3] = 70;
 console.log(listaDeNumeros);
-
-// Named function
-function rocketToMars() {
-  return "BOOM!";
-}
-
-// Anonymous function
-const rocketToMars = function () {
-  return "BOOM!";
-};
