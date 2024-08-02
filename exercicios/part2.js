@@ -35,7 +35,7 @@ function Pessoa(nome, idade) {
 }
 const gustavo = new Pessoa("Gustavo", 19);
 const felipe = new Pessoa("Felipe", 29);
-
+const teo = new Pessoa("Téo", 39);
 // if else
 const idade = 19;
 if (idade > 18) {
