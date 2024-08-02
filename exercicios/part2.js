@@ -38,9 +38,9 @@ const gustavo = new Pessoa("Gustavo", 19);
 // if else
 const idade = 19;
 if (idade > 18) {
-  console.log("Maior");
+  console.log("Maior de idade.");
 } else {
-  console.log("Menor");
+  console.log("Menor de idade.");
 }
 
 // else if
